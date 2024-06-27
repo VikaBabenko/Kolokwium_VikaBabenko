@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 1800px;
+    height: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-left: 90px;
+}
+.logo{
+    display: flex;
+    padding: 10px;
+}
+.logo img{
+    width: 65px;
+    height: 65px;
+}
+.google{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.google textarea{
+    border-radius: 10px;
+    width: 250px;
+
+}
+.gog{
+    margin-top: -10px;
+    margin-left: -40px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+.nav button{
+    border-radius: 20px;
+    width: 200px;
+    color: white;
+    background-color: goldenrod;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 60px;
+    margin-top: -10px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin-left:50px;
+
+}
+.icons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    font-size: 20px;
+    cursor: pointer;
+}
